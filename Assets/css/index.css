@@ -1,0 +1,37 @@
+
+/* Customization of content card */
+.sec {
+    margin: 40px 0px 95px 0px;
+    color: greenyellow;
+    background-image: url(../images/pink\ dust.png);
+    padding: 10px 0px 10px 0px;
+    font-family: 'Righteous', cursive;
+    height: 100px;
+}
+
+nav {
+    font-family: 'Pacifico', cursive;
+}
+#nametag {
+    font-family: 'Righteous', cursive;
+}
+
+
+.img-thumbnail {
+    border-radius: 35%;
+    border-color: black;
+    background-color: greenyellow;
+    height: 300px;
+    width: 300px;
+}
+/*  Positioning of H1 and text within the container row 2 */
+.col-md-8 {
+    position:relative;
+    right: 10px;
+    bottom: 10px;
+}
+/*  Applies background to entire page */
+body {
+    background-image: url(../images/dark_wood_@2X.png);
+    font-family: 'Righteous', cursive;
+} 

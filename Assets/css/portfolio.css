@@ -1,0 +1,68 @@
+/* Applies back ground to entire page */
+body {
+    background-image: url(../images/dark_wood_@2X.png);
+    font-family: 'Righteous', cursive;
+}
+nav {
+    font-family: 'Pacifico', cursive;
+}
+#nametag {
+    font-family: 'Righteous', cursive;
+}
+.first {
+    margin: 40px 0px 0px 0px;
+
+}
+.card-text {
+    height: 75px;
+    overflow:auto;
+}
+
+.card {
+    height: 100%;
+}
+
+.second {
+    margin: 40px 0px 0px 0px
+
+}
+
+.wg-button {
+    margin: 0px 0px 5px 0px;
+}
+
+.fg-button {
+    margin: 0px 0px 5px 0px;
+}
+
+.third {
+    margin: 40px 0px 95px 0px
+}
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.card {
+    border-color: greenyellow;
+}
+
+    /* Grow */
+    .hvr-grow {
+        display: inline-block;
+        vertical-align: middle;
+        transform: translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        backface-visibility: hidden;
+        -moz-osx-font-smoothing: grayscale;
+        transition-duration: 0.3s;
+        transition-property: transform;
+    }
+
+    footer {
+        position:fixed;    /*Here's what sticks it*/
+  bottom:0;          /*to the bottom of the window*/
+  left:0;            /*and to the left of the window.*/
+}
+    }
