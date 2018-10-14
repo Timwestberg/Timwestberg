@@ -1,6 +1,6 @@
 body {
     background-image: url("../images/projects.jpg");
-    background-color: #cccccc;
+    background-color: rgb(242, 244, 242, 0.7);
     width:100%;
     height: 100vh;
     background-position: center;
@@ -9,6 +9,81 @@ body {
     position: relative;
     color: white;
   }
+
+  /*  Project Button Styles */
+
+
+  .trainButton {
+    font-size: 24px;
+    background-color: rgb(236, 255, 193);
+    color: #000000;
+    border-radius: 55px 55px 55px 55px;
+    -moz-border-radius: 55px 55px 55px 55px;
+    -webkit-border-radius: 55px 55px 55px 55px;
+    -webkit-box-shadow: 4px 11px 45px 0px rgba(0,0,0,0.63);
+-moz-box-shadow: 4px 11px 45px 0px rgba(0,0,0,0.63);
+box-shadow: 4px 11px 45px 0px rgba(0,0,0,0.63);
+    border: 0px solid #000000;
+    margin:10px;
+    padding: 10px;
+  }
+
+  .trainButton:hover {
+      cursor: pointer;
+      transition: 0.7s;
+      -webkit-box-shadow: inset 4px 11px 45px 0px rgba(0,0,0,0.63);
+-moz-box-shadow: inset 4px 11px 45px 0px rgba(0,0,0,0.63);
+box-shadow: inset 4px 11px 45px 0px rgba(0,0,0,0.63);
+  }
+
+  .GigButton {
+    font-size: 24px;
+    background-color: rgb(236, 255, 193);
+    color: #000000;
+    border-radius: 55px 55px 55px 55px;
+    -moz-border-radius: 55px 55px 55px 55px;
+    -webkit-border-radius: 55px 55px 55px 55px;
+    -webkit-box-shadow: 4px 11px 45px 0px rgba(0,0,0,0.63);
+-moz-box-shadow: 4px 11px 45px 0px rgba(0,0,0,0.63);
+box-shadow: 4px 11px 45px 0px rgba(0,0,0,0.63);
+    border: 0px solid #000000;
+    margin:10px;
+    padding: 10px;
+
+  }
+
+  .GigButton:hover {
+      cursor: pointer;
+      transition: 0.7s;
+      -webkit-box-shadow: inset 4px 11px 45px 0px rgba(0,0,0,0.63);
+    -moz-box-shadow: inset 4px 11px 45px 0px rgba(0,0,0,0.63);
+    box-shadow: inset 4px 11px 45px 0px rgba(0,0,0,0.63);
+  }
+
+  .triviaButton {
+    font-size: 24px;
+    background-color: rgb(236, 255, 193);
+    color: #000000;
+    border-radius: 55px 55px 55px 55px;
+    -moz-border-radius: 55px 55px 55px 55px;
+    -webkit-border-radius: 55px 55px 55px 55px;
+    -webkit-box-shadow: 4px 11px 45px 0px rgba(0,0,0,0.63);
+    -moz-box-shadow: 4px 11px 45px 0px rgba(0,0,0,0.63);
+    box-shadow: 4px 11px 45px 0px rgba(0,0,0,0.63);
+    border: 0px solid #000000;
+    margin:10px;
+    padding: 10px;
+  }
+
+  .triviaButton:hover {
+      cursor: pointer;
+      transition: 0.7s;
+      -webkit-box-shadow: inset 4px 11px 45px 0px rgba(0,0,0,0.63);
+    -moz-box-shadow: inset 4px 11px 45px 0px rgba(0,0,0,0.63);
+    box-shadow: inset 4px 11px 45px 0px rgba(0,0,0,0.63);
+  }
+
+  /* End of Project Button Styles */
 
 
   /* Project img link styles to show layered effect */
