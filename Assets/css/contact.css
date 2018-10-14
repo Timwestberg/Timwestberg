@@ -1,25 +1,194 @@
-/* Applies back ground to entire page */
 body {
-    background-image: url(../images/dark_wood_@2X.png);
-    font-family: 'Righteous', cursive;
-}
+    background-image: url("../images/projects_page.jpg");
+    background-color: #cccccc;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
 nav {
-    font-family: 'Pacifico', cursive;
-}
-#nametag {
     font-family: 'Righteous', cursive;
+    border-radius: 0px 0px 38px 46px;
+    -moz-border-radius: 0px 0px 38px 46px;
+    -webkit-border-radius: 0px 0px 38px 46px;
+    border: 0px solid #000000;
+    -webkit-box-shadow: 13px 13px 23px 3px rgba(0,0,0,0.72);
+    -moz-box-shadow: 13px 13px 23px 3px rgba(0,0,0,0.72);
+    box-shadow: 13px 13px 23px 3px rgba(0,0,0,0.72);
 }
 
-/* customization to content  */
+.nav-link{
+    margin: 5px;
+}
 
-.sec {
-    background-image: url(../images/pink\ dust.png);
-    color: greenyellow;
-    margin: 40px 0px 95px 0px;
-    padding: 10px 0px 10px 0px;
-    border-radius: 10px;
+.submit {
+    -webkit-box-shadow: 2px 6px 22px 3px rgba(0,0,0,0.25);
+-moz-box-shadow: 2px 6px 22px 3px rgba(0,0,0,0.25);
+box-shadow: 2px 6px 22px 3px rgba(0,0,0,0.25);
+}
+
+.submit:hover {
+    -webkit-box-shadow: inset 2px 6px 61px 3px rgba(0,0,0,0.25);
+    -moz-box-shadow: inset 2px 6px 61px 3px rgba(0,0,0,0.25);
+    box-shadow: inset 2px 6px 61px 3px rgba(0,0,0,0.25);
+}
+
+.formulagen {
+    color:#f30800;
+}
+
+
+
+.nav-item {
+    
+    margin: 0px 10px 0px 0px;
+    border: solid #039ba3;
+    border-width: 0px 2px 0px 0px;
+
+}
+
+
+.nav-item:hover {
+    border-radius: 59px 59px 59px 59px;
+    -moz-border-radius: 59px 59px 59px 59px;
+    -webkit-border-radius: 59px 59px 59px 59px;
+    border: 0px solid #000000;
+    -webkit-box-shadow: inset 6px 4px 14px 0px rgba(0,0,0,0.52);
+    -moz-box-shadow: inset 6px 4px 14px 0px rgba(0,0,0,0.52);
+    box-shadow: inset 6px 4px 14px 0px rgba(0,0,0,0.52);
+}
+
+#contactCard {
+    text-shadow: -4px 3px 6px rgba(28,110,164,0.83);
+    background-color:rgb(173, 203, 206);
+    font-family: 'Fahkwang', sans-serif;
+    margin: 15px 0px 15px 0px;
+    color:black;
+    font-size: 18px;
+    border-radius: 45px 45px 45px 45px;
+    -moz-border-radius: 45px 45px 45px 45px;
+    -webkit-border-radius: 45px 45px 45px 45px;
+    border: 0px solid #000000;
+    -webkit-box-shadow: 13px 13px 23px 3px rgba(0,0,0,0.72);
+    -moz-box-shadow: 13px 13px 23px 3px rgba(0,0,0,0.72);
+    box-shadow: 13px 13px 23px 3px rgba(0,0,0,0.72);
+    font-family: 'Mitr', sans-serif;
+
 }
 
 textarea {
-    width: 100%;
+    border-radius: 18px 18px 18px 18px;
+    -moz-border-radius: 18px 18px 18px 18px;
+    -webkit-border-radius: 18px 18px 18px 18px;
+    border: 1px solid #000000;
 }
+
+.form-control {
+    -webkit-box-shadow: 5px 7px 14px 0px rgba(0,0,0,0.65);
+    -moz-box-shadow: 5px 7px 14px 0px rgba(0,0,0,0.65);
+    box-shadow: 5px 7px 14px 0px rgba(0,0,0,0.65);
+    border-radius: 89px 72px 77px 73px;
+    -moz-border-radius: 89px 72px 77px 73px;
+    -webkit-border-radius: 89px 72px 77px 73px;
+    border: 1px solid #000000;
+    background-color: rgb(255, 253, 209);
+}
+
+.btn {
+    margin: 10px;
+    border-radius: 88px 88px 88px 88px;
+    -moz-border-radius: 88px 88px 88px 88px;
+    -webkit-border-radius: 88px 88px 88px 88px;
+    border: 0px solid #000000;
+
+}
+
+
+.required {
+    color:#f30800;
+}
+
+textarea {
+    height: 100px;
+    width: 100%;
+    -webkit-box-shadow: 4px 7px 20px 3px rgba(0,0,0,0.65);
+    -moz-box-shadow: 4px 7px 20px 3px rgba(0,0,0,0.65);
+    box-shadow: 4px 7px 20px 3px rgba(0,0,0,0.65);
+    background-color: rgb(255, 253, 209)
+}
+
+/* Button styles for links */
+
+.resumeButton {
+    background-color: #2aba87;
+    color: #000000;
+    border-radius: 55px 55px 55px 55px;
+    -moz-border-radius: 55px 55px 55px 55px;
+    -webkit-border-radius: 55px 55px 55px 55px;
+    border: 0px solid #000000;
+    margin:5px;
+}
+
+.resumeButton:hover {
+    cursor: pointer;
+}
+
+.emailButton {
+    background-color: rgb(244, 75, 137);
+    color: #000000;
+    border-radius: 55px 55px 55px 55px;
+    -moz-border-radius: 55px 55px 55px 55px;
+    -webkit-border-radius: 55px 55px 55px 55px;
+    border: 0px solid #000000;
+    margin:5px;
+}
+
+.emailButton:hover {
+    cursor: pointer;
+}
+
+.phoneButton {
+    background-color: rgb(40, 224, 120);
+    color: #000000;
+    border-radius: 55px 55px 55px 55px;
+    -moz-border-radius: 55px 55px 55px 55px;
+    -webkit-border-radius: 55px 55px 55px 55px;
+    border: 0px solid #000000;
+    margin:5px;
+}
+
+.phoneButton:hover {
+    cursor: pointer;
+}
+
+.linkedInButton {
+    background-color: rgb(47, 137, 216);
+    color: #000000;
+    border-radius: 55px 55px 55px 55px;
+    -moz-border-radius: 55px 55px 55px 55px;
+    -webkit-border-radius: 55px 55px 55px 55px;
+    border: 0px solid #000000;
+    margin:5px;
+}
+
+.linkedInButton:hover {
+    cursor: pointer;
+}
+
+.gitHubButton {
+    background-color: rgb(169, 84, 255);
+    color: #000000;
+    border-radius: 55px 55px 55px 55px;
+    -moz-border-radius: 55px 55px 55px 55px;
+    -webkit-border-radius: 55px 55px 55px 55px;
+    border: 0px solid #000000;
+    margin:5px;
+}
+
+.gitHubButton:hover {
+    cursor: pointer;
+}
+
+/* End of button styles */
