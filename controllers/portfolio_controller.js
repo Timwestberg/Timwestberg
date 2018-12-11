@@ -12,7 +12,7 @@ router.get("/", (req, res) => {
     // Must be placed in an object varible to be accessed correctly, shows up as objects otherwise
     const hbsObject = {
       style: "index",
-      jsFile:"main",
+      jsFile:"portfolio",
       title:"Tim Westberg"
     };
 
