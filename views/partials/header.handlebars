@@ -1,44 +1,72 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    {{!-- Materilize Css --}}
 
-        <a class="navbar-brand" href="/"><i class="fas fa-code"></i> Tim Westberg</a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+     <div class="navbar-fixed">
 
-            <span class="navbar-toggler-icon"></span>
+  <nav class="nav-extended">
 
-        </button>
+    <div class="nav-wrapper">
 
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <a href="#" class="brand-logo"><i class="fas fa-code"></i> Tim Westberg</a>
 
-            <ul class="navbar-nav">
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 
-                <li class="nav-item active">
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
 
-                    <a class="nav-link" href="https://timwestberg.github.io/"><i class="fas fa-home formulagen"></i>  About <span
-                            class="sr-only">(current)</span></a>
+    <li><a href="assets/documents/TWestberg_Resume.pdf"><button class="resumeButton"><i class="far fa-file-pdf"></i> 
 
-                </li>
+    Resume</button></a></li>
 
-                <li class="nav-item">
+    <li><a href="https://github.com/Timwestberg"><button class="gitHubButton"><i class="fab fa-github"></i> GitHub</button></a></li>
 
-                    <a class="nav-link" href="/Projects"><i class="fas fa-archive"></i> Projects</a>
+    <li><a href="https://www.linkedin.com/in/tim-westberg-516022162/" ><button class="linkedInButton"><i class="fab fa-linkedin"></i> linkedin</button></a></li>
 
-                </li>
+      </ul>
 
-                <li class="nav-item">
+    </div>
 
-                    <a class="nav-link" href="/Contact"><i class="fas fa-hands-helping"></i> Contact</a>
+    <div class="nav-content">
 
-                </li>
-                
-                <li>
-                        <a href="assets/documents/TWestberg_Resume.pdf"><button class="resumeButton"><i class="far fa-file-pdf"></i> Resume</button></a>
+      <ul class="tabs tabs-transparent">
 
-                        <a href="https://github.com/Timwestberg"><button class="gitHubButton"><i class="fab fa-github"></i> GitHub</button></a>
+        <li class="tab projectsTab"><a href="#Projects">Projects</a></li>
 
-                        <a href="https://www.linkedin.com/in/tim-westberg-516022162/" ><button class="linkedInButton"><i class="fab fa-linkedin"></i> linkedin</button></a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+        <li class="tab contactTab"><a href="#Contact">Contact</a></li>
+
+      </ul>
+
+    </div>
+    
+  </nav>
+
+  </div>
+
+  <ul class="sidenav" id="mobile-demo">
+
+    <li><a href="assets/documents/TWestberg_Resume.pdf"><button class="resumeButton"><i class="far fa-file-pdf"></i> Resume</button></a></li>
+
+    <li><a href="https://github.com/Timwestberg"><button class="gitHubButton"><i class="fab fa-github"></i> GitHub</button></a></li>
+
+    <li><a href="https://www.linkedin.com/in/tim-westberg-516022162/" ><button class="linkedInButton"><i class="fab fa-linkedin"></i> linkedin</button></a></li>
+
+  </ul>
+
+
+
+{{!-- Projects Page built out using materalize CSS --}}
+  <div id="projects" class="col s12">
+
+Content
+
+  </div>
+
+
+
+{{!-- Contact Page built out using materalize CSS --}}
+  <div id="contact" class="col s12">
+
+
+Content
+
+  </div>
+
