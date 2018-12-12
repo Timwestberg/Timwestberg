@@ -22,15 +22,14 @@ nav {
     
 }
 
-nav .brand-logo1 {
-    position: absolute;
-    color: #fff;
-    display: inline-block;
-    padding: 0;
+.brand-logo {
+width:65%;
 }
 
 
-
+li.active {
+    background-color:#f8bbd0;
+}
 #list-About{
     font-family: 'Fahkwang', sans-serif;
     max-height: 400px;
