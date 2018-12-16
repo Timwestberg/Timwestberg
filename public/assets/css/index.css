@@ -11,6 +11,9 @@ nav {
     /* box-shadow: 13px 13px 23px 3px rgba(0,0,0,0.72); */
 }
 
+.sidenav-trigger {
+    line-height: 0px;
+}
 .contactIcon {
     position: relative;
     top:-10px;
