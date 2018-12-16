@@ -8,90 +8,49 @@ nav {
     font-family: 'Righteous', cursive;
     border-radius: 0px 0px 38px 46px;
     border: 0px solid #000000;
-    box-shadow: 13px 13px 23px 3px rgba(0,0,0,0.72);
+    /* box-shadow: 13px 13px 23px 3px rgba(0,0,0,0.72); */
 }
 
-
-
-#list-tab {
-    border-radius: 0px 35px 44px 38px;
-    border: 0px solid #0cdee9;
-    box-shadow: 11px 10px 24px 1px rgba(0,0,0,0.75);
-    background-color: black;
-    color: white;
-    
-    
+.sidenav-trigger {
+    line-height: 0px;
+}
+.contactIcon {
+    position: relative;
+    top:-10px;
 }
 
-
-#list-About{
-    font-family: 'Fahkwang', sans-serif;
-    max-height: 400px;
-    min-height: 195px;
-    background:#343A40;
-    color: white;
-    border-radius:12px;
-    font-size: 16px;
-    overflow-x: auto;
-    width:auto;
-    box-shadow: 11px 10px 24px 1px rgba(0,0,0,0.75);
+.sidenav-text-animation{
+    top:-15px;
+    height:8%;
 }
 
-
-
-#list-Coding{
-    font-family: 'Fahkwang', sans-serif;
-    max-height: 400px;
-    min-height: 195px;
-    background:#343A40;
-    color: white;
-    border-radius:12px;
-    font-size: 20px;
-    overflow-x: auto;
-    box-shadow: 11px 10px 24px 1px rgba(0,0,0,0.75);
+.brand-logo {
+width:65%;
 }
 
-#list-Hobbies{
-    width:auto;
-    font-family: 'Fahkwang', sans-serif;
-    max-height: 400px;
-    min-height: 195px;
-    background:#343A40;
-    color: white;
-    border-radius:12px;
-    font-size: 20px;
-    overflow-x: auto;
-    box-shadow: 11px 10px 24px 1px rgba(0,0,0,0.75);
+.circle {
+    position: relative;
+    left:100px;
 }
 
-#list-Goals{
-    width:auto;
-    font-family: 'Fahkwang', sans-serif;
-    max-height: 400px;
-    min-height: 195px;
-    background:#343A40;
-    color: white;
-    border-radius:12px;
-    font-size: 20px;
-    overflow-x: auto;
-    box-shadow: 11px 10px 24px 1px rgba(0,0,0,0.75);
+.user-view {
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+.subheader {
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    margin:0px;
 }
 
-#list-Contact {
-    width:auto;
-    font-family: 'Fahkwang', sans-serif;
-    max-height: 400px;
-    min-height: 195px;
-    background:#343A40;
-    color: white;
-    border-radius:12px;
-    font-size: 20px;
-    overflow-x: auto;
-    box-shadow: 11px 10px 24px 1px rgba(0,0,0,0.75);
-}
-
-#list-Contact a {
-    color:white;
+#HolidayPhoto {
+    height:315px;
 }
 
 .mainrow {
@@ -104,12 +63,29 @@ nav {
 
 
 
-.img-fluid{
+.images{
     min-height: auto;
     width:auto;
     border-radius: 77px 77px 77px 77px;
     border: 0px solid #000000;
-    box-shadow: 11px 10px 24px 1px rgba(0,0,0,0.75);
+    box-shadow: -1px 1px 1px 5px #235a51, -1px 4px 20px 5px #8c64b9be, inset 0 0 20px rgb(3, 97, 69), 0 5px 50px rgba(235, 8, 8, 0.5), inset 0 0 20px rgba(0,0,0,.2);
+    border: 0px solid #000000;
+}
+element.style {
+    transform: translateX(79.5px) translateY(100px) translateX(200px) translateZ(-200px);
+    z-index: -1;
+    opacity: 0.333333;
+    visibility: visible;
+}
+
+
+.carousel .carousel-item {
+    visibility: hidden;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 
@@ -143,8 +119,6 @@ nav {
     padding: 10px;
     font-size: 13px;
     text-align: left;
-    
-
 }
 
 .list-group-item.active {
@@ -157,23 +131,33 @@ nav {
 /* Button styles for links */
 
 .resumeButton {
+    text-align:center;
     background-color: #2aba87;
     color: #000000;
     border-radius: 55px 55px 55px 55px;
     border: 0px solid #000000;
-    margin:5px;
+    margin:7px;
+    padding:5px;
+    font-size: 22px;
 }
 
 .resumeButton:hover {
     cursor: pointer;
+    -webkit-animation: pulsate-fwd 0.5s ease-in-out infinite both;
+    animation: pulsate-fwd 0.5s ease-in-out infinite both;
 }
 
 .emailButton {
+    text-align: center;
     background-color: rgb(244, 75, 137);
     color: #000000;
-    border-radius: 55px 55px 55px 55px;
+    border-radius: 50%;
     border: 0px solid #000000;
-    margin:5px;
+    margin:7px;
+    padding:5px;
+    font-size: 22px;
+    width:40px;
+    height:40px;
 }
 
 .emailButton:hover {
@@ -185,35 +169,51 @@ nav {
     color: #000000;
     border-radius: 55px 55px 55px 55px;
     border: 0px solid #000000;
-    margin:5px;
+    margin:7px;
+    padding:5px;
+    font-size: 22px;
+    width:40px;
+    height:40px;
 }
 
 .phoneButton:hover {
     cursor: pointer;
+    
 }
 
 .linkedInButton {
+    text-align:center;
     background-color: rgb(47, 137, 216);
     color: #000000;
     border-radius: 55px 55px 55px 55px;
     border: 0px solid #000000;
-    margin:5px;
+    margin:7px;
+    padding:5px;
+    font-size: 22px;
 }
 
 .linkedInButton:hover {
     cursor: pointer;
+    -webkit-animation: pulsate-fwd 0.5s ease-in-out infinite both;
+    animation: pulsate-fwd 0.5s ease-in-out infinite both;
 }
 
 .gitHubButton {
+    text-align:center;
     background-color: rgb(169, 84, 255);
     color: #000000;
     border-radius: 55px 55px 55px 55px;
     border: 0px solid #000000;
-    margin:5px;
+    margin:7px;
+    padding:5px;
+    font-size: 22px;
+    
 }
 
 .gitHubButton:hover {
     cursor: pointer;
+    -webkit-animation: pulsate-fwd 0.5s ease-in-out infinite both;
+    animation: pulsate-fwd 0.5s ease-in-out infinite both;
 }
 
 /* End of button styles */
@@ -223,3 +223,167 @@ nav {
     height: 150px;
 
 }
+
+
+/* * CSS styling for button pulse * */
+
+
+
+
+ @-webkit-keyframes pulsate-fwd {
+    0% {
+      -webkit-transform: scale(2);
+              transform: scale(2);
+    }
+    50% {
+      -webkit-transform: scale(2.1);
+              transform: scale(2.1);
+    }
+    100% {
+      -webkit-transform: scale(2);
+              transform: scale(2);
+    }
+  }
+  @keyframes pulsate-fwd {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    50% {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+
+  #timEmail{
+      display:hidden;
+  }
+
+  /* Tool Tip Styling */
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+
+
+  /* Creative text animation */
+  .text--line {
+    font-size: 0.5em;
+    margin-top:50px;
+  }
+
+  .text--line2 {
+    position:absolute;
+    top:25px;
+  }
+
+  svg {
+    position: relative;
+    top: 10px;
+    width: 90%;
+    height: 50%;
+    font-size: 250px;
+  }
+
+  .text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 7% 28%;
+    stroke-width: 8px;
+    animation: stroke-offset 11s infinite linear;
+  }
+  .text-copy:nth-child(1) {
+    stroke: #290635;
+    stroke-dashoffset: 7%;
+  }
+  .text-copy:nth-child(2) {
+    stroke: #f71963;
+    stroke-dashoffset: 14%;
+  }
+  .text-copy:nth-child(3) {
+    stroke: #0af7a8;
+    stroke-dashoffset: 21%;
+  }
+  .text-copy:nth-child(4) {
+    stroke: #e3e639;
+    stroke-dashoffset: 28%;
+  }
+  .text-copy:nth-child(5) {
+    stroke: #47e3ff;
+    stroke-dashoffset: 35%;
+  }
+  @keyframes stroke-offset {
+    50% {
+      stroke-dashoffset: 35%;
+      stroke-dasharray: 0 87.5%;
+    }
+  }
+  
+
+
+  /* Side Nave Animation Styling */
+  .text-copy2 {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 7% 28%;
+    stroke-width: 8px;
+    animation: stroke-offset 15s infinite linear;
+  }
+  .text-copy2:nth-child(1) {
+    stroke: #290635;
+    stroke-dashoffset: 7%;
+  }
+  .text-copy2:nth-child(2) {
+    stroke: #f71963;
+    stroke-dashoffset: 14%;
+  }
+  .text-copy2:nth-child(3) {
+    stroke: #0af7a8;
+    stroke-dashoffset: 21%;
+  }
+  .text-copy2:nth-child(4) {
+    stroke: #e3e639;
+    stroke-dashoffset: 28%;
+  }
+  .text-copy2:nth-child(5) {
+    stroke: #47e3ff;
+    stroke-dashoffset: 35%;
+  }
