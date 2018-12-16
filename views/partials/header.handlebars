@@ -3,25 +3,55 @@
 
      <div class="navbar-fixed ">
 
-  <nav class="nav-extended red lighten-2">
+  <nav class="nav-extended red lighten-2 z-depth-4">
 
     <div class="nav-wrapper">
 
-      <a href="/" class="brand-logo center"><i class="fas fa-code"></i>Tim Westberg</a>
+      <a href="/" class="brand-logo center">Tim Westberg</a>
 
       <a href="#sideNavBar" data-target="sideNavBar" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 
       <ul id="nav-mobile" class="right hide-on-med-and-down">
+    <svg viewBox="0 0 1800 350">
+  <symbol id="s-text">
+    <text text-anchor="middle"
+          x="50%"
+          y="25%"
+          class="text--line fancyElastic1"
+          >
+      Full Stack
+    </text>
+    <text text-anchor="middle"
+          x="50%"
+          y="90%"
+          class="text--line2 fancyElastic2"
+          >
+      Web Developer
+    </text>
+    
+  </symbol>
+  
+  <g class="g-ants">
+    <use xlink:href="#s-text"
+      class="text-copy"></use>     
+    <use xlink:href="#s-text"
+      class="text-copy"></use>     
+    <use xlink:href="#s-text"
+      class="text-copy"></use>     
+    <use xlink:href="#s-text"
+      class="text-copy"></use>     
+    <use xlink:href="#s-text"
+      class="text-copy"></use>     
+  </g>
+  
+  
+</svg>
 
-    <li><a href="assets/documents/TWestberg_Resume.pdf"><button class="resumeButton"><i class="far fa-file-pdf"></i> 
 
-    Resume</button></a></li>
-
-    <li><a href="https://github.com/Timwestberg"><button class="gitHubButton"><i class="fab fa-github"></i> GitHub</button></a></li>
-
-    <li><a href="https://www.linkedin.com/in/tim-westberg-516022162/" ><button class="linkedInButton"><i class="fab fa-linkedin"></i> linkedin</button></a></li>
-
+      
       </ul>
+  
+
 
     </div>
 
@@ -29,9 +59,9 @@
 
       <ul class="tabs tabs-transparent">
 
-        <li class="tab projectsTab"><a href="#Projects">Projects</a></li>
+        <li class="tab projectsTab center"><a href="#Projects">Projects</a></li>
 
-        <li class="tab contactTab"><a href="#Contact">Contact</a></li>
+        <li class="tab contactTab center"><a href="#sideNavBar" class="sidenav-triggerContact" data-target="sideNavBar">Contact</a></li>
 
       </ul>
 
@@ -41,36 +71,46 @@
 
   </div>
 
-  <ul class="sidenav" id="sideNavBar">
+  <ul class="sidenav grey lighten-2" id="sideNavBar">
 
-    <li><a href="assets/documents/TWestberg_Resume.pdf"><button class="resumeButton"><i class="far fa-file-pdf"></i> Resume</button></a></li>
-
-    <li><a href="https://github.com/Timwestberg"><button class="gitHubButton"><i class="fab fa-github"></i> GitHub</button></a></li>
-
-    <li><a href="https://www.linkedin.com/in/tim-westberg-516022162/" ><button class="linkedInButton"><i class="fab fa-linkedin"></i> linkedin</button></a></li>
-
-  </ul>
-
-  <ul id="slide-out" class="sidenav">
-    <li><div class="user-view">
+<li><div class="user-view">
       <div class="background">
-        <img src="images/office.jpg">
+        <img class="responsive-img" src="assets/img/city.jpeg">
       </div>
-      <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
-      <a href="#name"><span class="white-text name">John Doe</span></a>
-      <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+      <a href="#TimWestberg"><img class="circle responsive-img " src="assets/img/TimHeadShot.jpg"></a>
+      <a href="#name"><h1 class=" name center yellow-text accent-3">Tim Westberg</h1></a>
+     <h1 class="email yellow-text accent-3" data-clipboard-text="Timwestberg@formulagen.com">Timwestberg@Formulagen.com</h1></a>
     </div></li>
-    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-    <li><a href="#!">Second Link</a></li>
+
+    <h3 class="subheader center yellow-text accent-2 deep-orange accent-1">Contact</h3>
     <li><div class="divider"></div></li>
-    <li><a class="subheader">Contact</a></li>
-    <li><a href="assets/documents/TWestberg_Resume.pdf"><button class="resumeButton"><i class="far fa-file-pdf"></i> Resume</button></a></li>
 
-    <li><a href="https://github.com/Timwestberg"><button class="gitHubButton"><i class="fab fa-github"></i> GitHub</button></a></li>
+                                 <button class="copyBtn emailButton z-depth-2 waves-effect waves-circle tooltipped" data-position="top" data-tooltip="Copy to clipboard"data-clipboard-text="Timwestberg@formulagen.com" onclick="M.toast({html: 'Email Copied!'})">
+                                <i class="fas fa-envelope contactIcon"></i>
+                                </button>
+                          
+        
 
-    <li><a href="https://www.linkedin.com/in/tim-westberg-516022162/" ><button class="linkedInButton"><i class="fab fa-linkedin"></i> linkedin</button></a></li>
+                                
+                                <button class="copyBtn phoneButton z-depth-2 waves-effect waves-circle tooltipped" data-position="top" data-tooltip="Copy to clipboard" data-clipboard-text="(951) 852-2584" onclick="M.toast({html: 'Phone Number Copied!'})">
+                                <i class="fas fa-mobile contactIcon"></i>
+                                </button>
+
+                                <br>
+
+    <a href="assets/documents/TWestberg_Resume.pdf"><button class="resumeButton z-depth-2 pulsate-fwd"><i class="far fa-file-pdf"></i> Resume</button></a>
+
+    <a href="https://github.com/Timwestberg"><button class="gitHubButton z-depth-2 pulsate-fwd"><i class="fab fa-github"></i> GitHub</button></a>
+    
+
+    <a href="https://www.linkedin.com/in/tim-westberg-516022162/" ><button class="linkedInButton z-depth-2 pulsate-fwd"><i class="fab fa-linkedin"></i> linkedin</button></a>
+
   </ul>
-  <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
+
+
+
+  {{!-- <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a> --}}
 
 
 

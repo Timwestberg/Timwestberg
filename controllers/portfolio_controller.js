@@ -11,6 +11,7 @@ router.get("/", (req, res) => {
 
     // Must be placed in an object varible to be accessed correctly, shows up as objects otherwise
     const hbsObject = {
+      materialize:"materialize.min",
       style: "index",
       jsFile:"portfolio",
       title:"Tim Westberg"
