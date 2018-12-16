@@ -16,6 +16,11 @@ nav {
     top:-10px;
 }
 
+.sidenav-text-animation{
+    top:-15px;
+    height:8%;
+}
+
 .brand-logo {
 width:65%;
 }
@@ -308,7 +313,6 @@ element.style {
   }
 
   svg {
-    
     position: relative;
     top: 10px;
     width: 90%;
@@ -350,3 +354,33 @@ element.style {
     }
   }
   
+
+
+  /* Side Nave Animation Styling */
+  .text-copy2 {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 7% 28%;
+    stroke-width: 8px;
+    animation: stroke-offset 15s infinite linear;
+  }
+  .text-copy2:nth-child(1) {
+    stroke: #290635;
+    stroke-dashoffset: 7%;
+  }
+  .text-copy2:nth-child(2) {
+    stroke: #f71963;
+    stroke-dashoffset: 14%;
+  }
+  .text-copy2:nth-child(3) {
+    stroke: #0af7a8;
+    stroke-dashoffset: 21%;
+  }
+  .text-copy2:nth-child(4) {
+    stroke: #e3e639;
+    stroke-dashoffset: 28%;
+  }
+  .text-copy2:nth-child(5) {
+    stroke: #47e3ff;
+    stroke-dashoffset: 35%;
+  }
