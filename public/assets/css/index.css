@@ -625,10 +625,6 @@ element.style {
 
 /* Card Flip */
 
-body {
-    font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
-    margin: 12px 0;
-  }
   .card-container {
     cursor: pointer;
     height: 150px;
@@ -657,7 +653,7 @@ body {
   .card .back {
     background: #eaeaed;
     color: #0087cc;
-    line-height: 150px;
     text-align: center;
+    font-size:15px;
     transform: rotateY(180deg);
   }
