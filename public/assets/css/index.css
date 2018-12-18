@@ -9,7 +9,7 @@ nav {
 }
 
 .sidenav-trigger {
-    line-height: 0px;
+    line-height: 30px;
 }
 
 .sidenav-text-animation{
@@ -107,6 +107,11 @@ element.style {
     top:-15px;
 }
 
+
+.projectTab{
+    position: relative; 
+    overflow:hidden;
+}
 
 
 
@@ -380,8 +385,8 @@ element.style {
     will-change: transform;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    -webkit-transform: translateX(-105%);
-    transform: translateX(-105%)
+    -webkit-transform: translateX(105%);
+    transform: translateX(105%)
 }
 
 .sidenav-right.right-aligned {
@@ -550,26 +555,26 @@ element.style {
     right: 0
 }
 
-.sidenav-right.sidenav-right-fixed {
+.sidenav-right .sidenav--fixed {
     left: 0;
     -webkit-transform: translateX(0);
     transform: translateX(0);
     position: fixed
 }
 
-.sidenav-right.sidenav-right-fixed.right-aligned {
+.sidenav-right .sidenav-fixed.right-aligned {
     right: 0;
     left: auto
 }
 
 @media only screen and (max-width: 992px) {
-    .sidenav-right.sidenav-right-fixed {
+    .sidenav-right.sidenav-fixed {
         -webkit-transform: translateX(-105%);
         transform: translateX(-105%)
     }
 
-    .sidenav-right.sidenav-right-fixed.right-aligned {
-        -webkit-transform: translateX(105%);
+    .sidenav-right.sidenav-fixed.right-aligned {
+        -webkit-transform: translateX(-105%);
         transform: translateX(105%)
     }
 
@@ -583,12 +588,12 @@ element.style {
 }
 
 .sidenav-right .collapsible-body>ul:not(.collapsible)>li.active,
-.sidenav-right.sidenav-right-fixed .collapsible-body>ul:not(.collapsible)>li.active {
+.sidenav-right.sidenav-fixed .collapsible-body>ul:not(.collapsible)>li.active {
     background-color: #ee6e73
 }
 
 .sidenav-right .collapsible-body>ul:not(.collapsible)>li.active a,
-.sidenav-right.sidenav-right-fixed .collapsible-body>ul:not(.collapsible)>li.active a {
+.sidenav-right.sidenav-fixed .collapsible-body>ul:not(.collapsible)>li.active a {
     color: #fff
 }
 
@@ -616,3 +621,43 @@ element.style {
     top:-15px;
     height:8%;
 }
+
+
+/* Card Flip */
+
+body {
+    font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+    margin: 12px 0;
+  }
+  .card-container {
+    cursor: pointer;
+    height: 150px;
+    perspective: 600;
+    position: relative;
+    width: 150px;
+  }
+  .card {
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    width: 100%;
+  }
+  .card:hover {
+    transform: rotateY(180deg);
+  }
+  .card .side {
+    backface-visibility: hidden;
+    border-radius: 6px;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+  }
+  .card .back {
+    background: #eaeaed;
+    color: #0087cc;
+    line-height: 150px;
+    text-align: center;
+    transform: rotateY(180deg);
+  }
