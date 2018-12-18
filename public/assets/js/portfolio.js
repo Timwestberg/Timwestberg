@@ -35,6 +35,15 @@ $(document).ready(function(){
     $('.sidenav').sidenav();
   });
 
+
+  $(document).ready(function(){
+    $('.sidenav-right').sidenav({
+      edge: 'right'
+    });
+  });
+
+ 
+
   $(document).ready(function(){
     $('.carousel').carousel();
   });
