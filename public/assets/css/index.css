@@ -273,7 +273,9 @@ svg {
 	stroke: white;
 	stroke-dasharray: 7% 28%;
 	stroke-width: 8px;
-	animation: stroke-offset 11s infinite linear;
+	animation: stroke-offset alternate linear; /*15s infinite*/
+	animation-duration: 10s;
+	animation-iteration-count: 3;
 }
 .text-copy:nth-child(1) {
 	stroke: #290635;
@@ -308,7 +310,9 @@ svg {
 	stroke: white;
 	stroke-dasharray: 7% 28%;
 	stroke-width: 8px;
-	animation: stroke-offset 10s infinite linear;
+	animation: stroke-offset alternate linear; /*15s infinite*/
+	animation-duration: 12s;
+	animation-iteration-count: 1;
 }
 .text-copy2:nth-child(1) {
 	stroke: #290635;
@@ -629,4 +633,16 @@ svg {
 
 .fa-github-square {
 	font-size: 50px;
+}
+
+#nameTag {
+	top: 29px;
+	/* font-size: 25px; */
+}
+
+@media only screen and (max-width: 600px) {
+	#nameTag {
+		top: 5px;
+		/* font-size: 25px; */
+	}
 }
