@@ -9,7 +9,9 @@
 
       <a href="/" id="nameTag" class="brand-logo center">Tim Westberg</a>
 
-      <a href="#sideNavBar" data-target="sideNavBar" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <a href="#sideNavBar" data-target="sideNavBar" class="sidenav-trigger tooltipped" data-position="right" data-tooltip="Show contact information"><i class="material-icons">
+contacts
+</i></a>
 
       <ul id="nav-mobile" class="right hide-on-med-and-down">
     <svg viewBox="0 0 1800 350">
@@ -60,7 +62,7 @@
       <ul class="tabs tabs-transparent">
 
 
-         <li class="tab projectTab center"><a href="#sideNavBar-right" data-target="sideNavBar-right" class="sidenav-trigger projectTab">Projects</a></li>
+         <li class="tab projectTab center"><a href="#sideNavBar-right" data-target="sideNavBar-right" class="sidenav-trigger projectTab">Showcase</a></li>
 
         <li class="tab contactTab center hide-on-med-and-down "><a href="#sideNavBar" data-target="sideNavBar" class="sidenav-trigger contactTab ">Contact</a></li>
 
@@ -80,7 +82,7 @@
       </div>
       <a href="https://timwestberg.herokuapp.com/"><img id="timProfilePhoto" class="circle responsive-img " src="assets/img/TimHeadShot.jpg"></a>
       <a href="#name"><h1 class=" name center  amber-text lighten-5">Tim Westberg</h1></a>
-     <h2 class="email  amber-text lighten-5" data-clipboard-text="Timwestberg@formulagen.com">Timwestberg@Formulagen.com</h2></a>
+     {{!-- <h2 class="email  amber-text lighten-5" data-clipboard-text="Timwestberg@formulagen.com">Timwestberg@Formulagen.com</h2></a> --}}
     </div></li>
     <svg viewBox="0 0 2300 350" class="sidenav-text-animation">
   <symbol id="s-text">
@@ -160,7 +162,7 @@
     </div></li>
 
    <li><div class="divider"></div></li>
-    <h3 id="pinned" class="subheader center amber-text  lighten-5">Projects</h3>
+    <h3 id="pinned" class="subheader center amber-text  lighten-5">Showcase</h3>
     <li><div class="divider"></div></li>
 
  <div class="row">
@@ -168,18 +170,18 @@
       <div class="card">
         <div class="card-image">
           <img src="assets/img/schedulize.jpeg">
-          <span class="card-title black-text"><h4>Schedulize</h4></span>
-          <a href="https://timwestberg.herokuapp.com/" data-position="left" data-tooltip="Schedulize coming soon..." class="btn-floating halfway-fab waves-effect waves-light blue lighten-3 tooltipped"><i class="material-icons">reply</i></a>
+          <span class="card-title white-text"><h4></h4></span>
+          <a href="https://scheduliz.herokuapp.com/addUser" data-position="left" data-tooltip="Scheduling Solutions" class="btn-floating halfway-fab waves-effect waves-light blue lighten-3 tooltipped"><i class="fas fa-calendar-check"></i></a>
         </div>
         <div class="card-content">
 
-      <span class="card-title activator grey-text text-darken-4">Schedulize built with...<i class="material-icons right">more_vert</i></span>
+      <span class="card-title activator grey-text text-darken-4">Schedulize Keep track of contractors. Implementing Google maps schedulize plots your appointments onto a map than displays the clostest relative contractor. <i data-position="left" data-tooltip="Built With..." class="fas fa-toolbox  tooltipped"></i></span>
 
     </div>
     
     <div class="card-reveal">
 
-      <span class="card-title grey-text text-darken-4">Built Using<i class="material-icons right">close</i></span>
+      <span class="card-title grey-text text-darken-4">Built Using<i  class="material-icons right">close</i></span>
 
   <ul>
     <li>REACT</li>
@@ -209,12 +211,12 @@
       <div class="card">
         <div class="card-image">
           <img src="assets/img/Gig-it_cover.jpeg">
-          <span class="card-title"><h3>Gig It</h3></span>
-          <a data-position="left" data-tooltip="Check out local talent" href="https://ptamayo97.github.io/Gig-It-project/" class="btn-floating halfway-fab waves-effect waves-light blue lighten-3 tooltipped"><i class="material-icons">reply</i></a>
+
+          <a data-position="left" data-tooltip="Check out local talent" href="https://ptamayo97.github.io/Gig-It-project/" class="btn-floating halfway-fab waves-effect waves-light blue lighten-3 tooltipped"><i class="fas fa-drum"></i></a>
         </div>
         <div class="card-content">
 
-      <span class="card-title activator grey-text text-darken-4">Gig It Built With...<i class="material-icons right">more_vert</i></span>
+      <span class="card-title activator grey-text text-darken-4">Gig it!  Local bands can post their upcoming Gigs, fans have an oppurtunity to see where and when local, popular or new unheard of power houses are playing. <i data-position="left" data-tooltip="Built With..."class="fas fa-toolbox  tooltipped"></i></span>
 
     </div>
     
@@ -249,18 +251,18 @@
       <div class="card">
         <div class="card-image">
           <img src="assets/img/happyCamper.jpeg">
-          <span class="card-title"><h4>Happy Camper</h4></span>
-          <a data-position="left" data-tooltip="Discover Locations" href="https://pure-wave-97099.herokuapp.com/" class="btn-floating halfway-fab waves-effect waves-light blue lighten-3 tooltipped"><i class="material-icons ">reply</i></a>
+          <span class="card-title"><h4></h4></span>
+          <a data-position="left" data-tooltip="Discover Locations" href="https://pure-wave-97099.herokuapp.com/" class="btn-floating halfway-fab waves-effect waves-light blue lighten-3 tooltipped"><i class="fas fa-campground"></i></a>
         </div>
         <div class="card-content">
 
-      <span class="card-title activator grey-text text-darken-4">Happy Camper Built With...<i class="material-icons right">more_vert</i></span>
+      <span class="card-title activator grey-text text-darken-4">Happy Camper allow user to search state parks and write reviews about their visits and expierences. <i data-position="left" data-tooltip="Built With..." class="fas fa-toolbox  tooltipped"></i></span>
 
     </div>
     
     <div class="card-reveal">
 
-      <span class="card-title grey-text text-darken-4">Built Using<i class="material-icons right">close</i></span>
+      <span class="card-title grey-text text-darken-4">Built Using</span>
 
   <ul>
     <li>MySql Database</li>
@@ -293,12 +295,12 @@
       <div class="card">
         <div class="card-image">
           <img src="assets/img/piratecapture.jpeg">
-          <span class="card-title project-title"><h4>Pirate Capture</h4></span>
-          <a  data-position="left" data-tooltip="Play Pirate Capture" href="https://timwestberg.github.io/PirateCapture/" class="btn-floating halfway-fab waves-effect waves-light blue lighten-3 tooltipped"><i class="material-icons">reply</i></a>
+          <span class="card-title project-title"><h4></h4></span>
+          <a  data-position="left" data-tooltip="Play Pirate Capture" href="https://timwestberg.github.io/PirateCapture/" class="btn-floating halfway-fab waves-effect waves-light blue lighten-3 tooltipped"><i class="fas fa-ship"></i></a>
         </div>
         <div class="card-content">
 
-      <span class="card-title activator grey-text text-darken-4">Pirate Capture Built With...<i class="material-icons right">more_vert</i></span>
+      <span class="card-title activator grey-text text-darken-4">Pirate Capture! Attempt to capture all of the Straw Hat Pirates, a One Piece inspired memory game!<i data-position="left" data-tooltip="Built With..." class="fas fa-toolbox  tooltipped"></i></span>
 
     </div>
     
@@ -338,11 +340,11 @@
         <div class="card-image">
           <img src="assets/img/books.jpeg">
           <span class="card-title project-title"><h4>Formula Books</h4></span>
-          <a data-position="left" data-tooltip="Look for Books" class="btn-floating halfway-fab waves-effect waves-light blue lighten-3 tooltipped"><i class="material-icons">reply</i></a>
+          <a data-position="left" data-tooltip="Look for Books" class="btn-floating halfway-fab waves-effect waves-light blue lighten-3 tooltipped"><i class="fas fa-bookmark"></i></a>
         </div>
         <div class="card-content">
 
-      <span class="card-title activator grey-text text-darken-4">Formula Books Built With...<i class="material-icons right">more_vert</i></span>
+      <span class="card-title activator grey-text text-darken-4">User interface for searching Goolge Books and saving them to view later. <i data-position="left" data-tooltip="Built With..." class="fas fa-toolbox  tooltipped"></i></span>
 
     </div>
     
@@ -380,12 +382,14 @@
       <div class="card">
         <div class="card-image">
           <img src="assets/img/burgerbros.jpeg">
-          <span class="card-title project-title"><h4>Burger-me Bro</h4></span>
-          <a data-position="left" data-tooltip="Create Burger" href="https://thawing-journey-27450.herokuapp.com/" class="btn-floating halfway-fab waves-effect waves-light blue lighten-3 tooltipped"><i class="material-icons">reply</i></a>
+          <span class="card-title project-title"><h4></h4></span>
+          <a data-position="left" data-tooltip="Create Burger" href="https://thawing-journey-27450.herokuapp.com/" class="btn-floating halfway-fab waves-effect waves-light blue lighten-3 tooltipped"><i class="material-icons">
+fastfood
+</i></a>
         </div>
         <div class="card-content">
 
-      <span class="card-title activator grey-text text-darken-4">Burger-me Bro Built With...<i class="material-icons right">more_vert</i></span>
+      <span class="card-title activator grey-text text-darken-4">Burger-me Bro allows users to save their favorite burger creations, Never forget a great burger! <i data-position="left" data-tooltip="Built With..." class="fas fa-toolbox  tooltipped"></i></span>
 
     </div>
     
@@ -439,13 +443,13 @@
 
           <img src="assets/img/triviaGame.jpeg">
   
-          <a data-position="left" data-tooltip="Play game of Trivia" href="https://timwestberg.github.io/TriviaGame/" class="btn-floating halfway-fab waves-effect waves-light blue lighten-3 tooltipped"><i class="material-icons">reply</i></a>
+          <a data-position="left" data-tooltip="Play game of Trivia" href="https://timwestberg.github.io/TriviaGame/" class="btn-floating halfway-fab waves-effect waves-light blue lighten-3 tooltipped"><i class="fas fa-trophy"></i></a>
 
         </div>
 
         <div class="card-content">
 
-      <span class="card-title activator grey-text text-darken-4">Trivia Built With...<i class="material-icons right">more_vert</i></span>
+      <span class="card-title activator grey-text text-darken-4">Fast Food trivia game, put you knowledge to the test! <i data-position="left" data-tooltip="Built With..." class="fas fa-toolbox  tooltipped"></i></span>
 
     </div>
     
